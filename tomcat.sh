@@ -1,5 +1,5 @@
 sudo yum install java-17-amazon-corretto -y
-wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.98/bin/apache-tomcat-9.0.98.tar.gz
+wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.44/bin/apache-tomcat-10.1.44.tar.gz
 tar -zxvf apache-tomcat-9.0.98.tar.gz
 sed -i '56  a\<role rolename="manager-gui"/>' apache-tomcat-9.0.98/conf/tomcat-users.xml
 sed -i '57  a\<role rolename="manager-script"/>' apache-tomcat-9.0.98/conf/tomcat-users.xml
